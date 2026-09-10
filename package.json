@@ -1,0 +1,16 @@
+{
+  "name": "bot-casas-discord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "mongodb": "^7.6.0",
+    "mongoose": "^8.24.4",
+    "node-fetch": "^2.7.0"
+  }
+}
